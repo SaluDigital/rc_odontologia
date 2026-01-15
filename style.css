@@ -232,7 +232,8 @@ header {
 }
 
 .location-banner {
-    margin-top: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
     padding: 15px 25px;
     background: var(--white);
     border-radius: 10px;
