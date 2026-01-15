@@ -1,15 +1,21 @@
 :root {
-    --primary: #2C5F2D;
-    /* Forest Green */
-    --primary-light: #4A8C4B;
-    --secondary: #97BC62;
-    --accent: #E8F5E9;
+    --primary: #1B4965;
+    /* Deep Blue */
+    --primary-light: #5FA8D3;
+    --secondary: #62B6CB;
+    --accent: #E1F5FE;
     --text-dark: #2D3436;
     --text-light: #636E72;
     --white: #FFFFFF;
     --bg-light: #F8F9FA;
     --shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     --transition: all 0.3s ease;
+
+    /* Cores das marcas/botões originais (verde) */
+    --btn-primary: #2C5F2D;
+    --btn-primary-hover: #4A8C4B;
+    --btn-secondary: #97BC62;
+    --btn-secondary-hover: #82a353;
 }
 
 * {
@@ -66,23 +72,23 @@ h4,
 }
 
 .btn-primary {
-    background-color: var(--primary);
+    background-color: var(--btn-primary);
     color: var(--white);
 }
 
 .btn-primary:hover {
-    background-color: var(--primary-light);
+    background-color: var(--btn-primary-hover);
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(44, 95, 45, 0.2);
 }
 
 .btn-secondary {
-    background-color: var(--secondary);
+    background-color: var(--btn-secondary);
     color: var(--white);
 }
 
 .btn-secondary:hover {
-    background-color: #82a353;
+    background-color: var(--btn-secondary-hover);
     transform: translateY(-3px);
 }
 
@@ -105,7 +111,7 @@ h4,
 
 /* --- HEADER --- */
 header {
-    background: #3E4A47;
+    background: #1B263B;
     height: 100px;
     display: flex;
     align-items: center;
@@ -580,7 +586,7 @@ header {
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background: rgba(44, 95, 45, 0.3);
+    background: rgba(27, 73, 101, 0.3);
     cursor: pointer;
     transition: var(--transition);
 }
@@ -660,7 +666,7 @@ header {
 
 .cta-final .btn-primary {
     background: var(--white);
-    color: var(--primary);
+    color: var(--btn-primary);
 }
 
 .cta-final .btn-primary:hover {
