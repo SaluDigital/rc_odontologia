@@ -96,6 +96,13 @@ h4,
     font-size: 1.1rem;
 }
 
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
 /* --- HEADER --- */
 header {
     background: #3E4A47;
@@ -835,16 +842,16 @@ footer {
         display: block;
     }
 
-    .hero-image {
-        order: -1;
-    }
-
     .diferenciais-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 
     .ba-wrapper {
         padding: 20px;
+    }
+
+    .tratamento-card {
+        text-align: center;
     }
 }
 
@@ -858,9 +865,9 @@ footer {
         text-align: center;
     }
 
-    .feedback-actions {
+    .btn-group {
         flex-direction: column;
-        gap: 20px;
-        align-items: flex-start;
+        align-items: center;
+        gap: 15px;
     }
 }
