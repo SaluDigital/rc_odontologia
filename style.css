@@ -473,7 +473,7 @@ header {
 /* --- FEEDBACK / TESTIMONIALS --- */
 .feedback {
     padding: 80px 0;
-    background: var(--accent);
+    background: #E1ECE9;
 }
 
 .google-badge-header {
