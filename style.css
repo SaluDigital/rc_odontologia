@@ -419,18 +419,22 @@ header {
 }
 
 .equipe-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    justify-content: center;
     gap: 40px;
+    flex-wrap: nowrap;
 }
 
 .membro-card {
+    flex: 1;
+    min-width: 0;
     text-align: center;
 }
 
 .membro-card img {
-    width: 250px;
-    height: 250px;
+    width: 100%;
+    max-width: 250px;
+    aspect-ratio: 1/1;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -788,7 +792,6 @@ footer {
 
     .hero-grid,
     .institucional-grid,
-    .equipe-grid,
     .feedback-wrapper,
     .localizacao-grid,
     .ba-wrapper {
@@ -797,6 +800,10 @@ footer {
 
     .hero h1 {
         font-size: 2.5rem;
+    }
+
+    .equipe-grid {
+        gap: 15px;
     }
 
     .nav-links {
