@@ -98,23 +98,34 @@ h4,
 
 /* --- HEADER --- */
 header {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    height: 80px;
+    background: #3E4A47;
+    height: 100px;
     display: flex;
     align-items: center;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
 }
 
-nav {
+.header-nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.logo-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-logo {
+    height: 70px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo {

@@ -3,28 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const header = document.getElementById('header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
-            header.style.padding = '10px 0';
-            header.style.background = 'rgba(255, 255, 255, 0.98)';
+            header.style.padding = '5px 0';
+            header.style.height = '80px';
         } else {
             header.style.padding = '0';
-            header.style.background = 'rgba(255, 255, 255, 0.95)';
+            header.style.height = '100px';
         }
-    });
-
-    // Mobile Menu Toggle
-    const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
-    const navLinks = document.querySelector('.nav-links');
-
-    mobileMenuBtn.addEventListener('click', () => {
-        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-        navLinks.style.flexDirection = 'column';
-        navLinks.style.position = 'absolute';
-        navLinks.style.top = '80px';
-        navLinks.style.left = '0';
-        navLinks.style.width = '100%';
-        navLinks.style.background = '#fff';
-        navLinks.style.padding = '20px';
-        navLinks.style.boxShadow = '0 10px 10px rgba(0,0,0,0.1)';
     });
 
     // Smooth scroll for anchors
