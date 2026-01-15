@@ -350,7 +350,7 @@ header {
 }
 
 .institucional-visual {
-    background: url('https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&q=80&w=800') center/cover;
+    background: url('images/institucional.png') center/cover;
     height: 400px;
     border-radius: 30px;
     display: flex;
