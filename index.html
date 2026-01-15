@@ -65,8 +65,8 @@
 
         <!-- PROVA SOCIAL -->
         <section class="feedback">
-            <div class="container feedback-wrapper">
-                <div class="feedback-header">
+            <div class="container">
+                <div class="section-header text-center">
                     <span class="subtitle">Depoimentos</span>
                     <h3>O que nossos pacientes dizem</h3>
                     <div class="stars">
@@ -76,21 +76,105 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                </div>
-                <div class="feedback-content">
-                    <div class="google-badge">
+                    <div class="google-badge-header">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"
                             alt="Google">
-                        <span>Altamente avaliada no Google</span>
+                        <span>Avaliações verificadas no Google</span>
                     </div>
-                    <p>"Clínica odontológica muito bem avaliada no Google, reconhecida pelo atendimento humanizado,
-                        qualidade dos tratamentos e resultados reais."</p>
-                    <div class="feedback-actions">
-                        <a href="#" class="link-btn">Ver avaliações no Google <i
-                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=5541998069893&text=Olá, vim do google e quero mais informações!"
-                            class="btn btn-primary">Agendar consulta agora</a>
+                </div>
+
+                <div class="testimonials-carousel">
+                    <div class="testimonial-track">
+                        <div class="testimonial-card active">
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Excelente atendimento! Equipe muito atenciosa e profissional.
+                                Fiz um tratamento de canal e não senti nada. Super recomendo!"</p>
+                            <div class="testimonial-author">
+                                <strong>Maria Silva</strong>
+                                <span>Paciente há 2 anos</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Clínica moderna e limpa. Dr. Rogério é muito competente e
+                                explica tudo com clareza. Meu sorriso ficou lindo com as lentes de contato!"</p>
+                            <div class="testimonial-author">
+                                <strong>João Santos</strong>
+                                <span>Paciente há 1 ano</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Melhor clínica odontológica de Curitiba! Atendimento
+                                humanizado, preços justos e resultados incríveis. Toda minha família se trata aqui."</p>
+                            <div class="testimonial-author">
+                                <strong>Ana Paula</strong>
+                                <span>Paciente há 3 anos</span>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Profissionais extremamente qualificados. Fiz implante dentário
+                                e o resultado superou minhas expectativas. Recomendo de olhos fechados!"</p>
+                            <div class="testimonial-author">
+                                <strong>Carlos Eduardo</strong>
+                                <span>Paciente há 6 meses</span>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev" onclick="moveCarousel(-1)">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <div class="carousel-dots">
+                            <span class="dot active" onclick="currentSlide(0)"></span>
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                        <button class="carousel-btn next" onclick="moveCarousel(1)">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="text-center mt-40">
+                    <a href="https://www.google.com/search?q=rc+odontologia+integrada+s%C3%A3o+bras&sca_esv=77cf4491859813e6&rlz=1C1UEAD_enBR1086BR1086&sxsrf=ANbL-n5fpJ3wsvWbi2Ov_ASzU4O0y_nppw%3A1768483601410&ei=EetoaavmGM675OUPpdC_4AU&ved=0ahUKEwjrsunm0o2SAxXOHbkGHSXoD1wQ4dUDCBE&uact=5&oq=rc+odontologia+integrada+s%C3%A3o+bras&gs_lp=Egxnd3Mtd2l6LXNlcnAiInJjIG9kb250b2xvZ2lhIGludGVncmFkYSBzw6NvIGJyYXMyBxAhGKABGAoyBxAhGKABGApI1yhQyBdY_iZwAXgBkAEAmAG7AaABmgqqAQMwLjm4AQPIAQD4AQGYAgqgAr8KwgIKEAAYsAMY1gQYR8ICBhAAGBYYHsICCBAAGIAEGKIEwgIFEAAY7wXCAgUQIRigAcICBRAhGJ8FmAMAiAYBkAYCkgcDMS45oAfJMLIHAzAuObgHvArCBwUwLjkuMcgHEYAIAA&sclient=gws-wiz-serp#lrd=0x94dce1c3ec53d02f:0xc545acd00e31deaf,1,,,,"
+                        target="_blank" class="btn btn-secondary">
+                        Ver todas as avaliações no Google <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=5541998069893&text=Olá, vim do google e quero mais informações!"
+                        class="btn btn-primary">
+                        Agendar consulta agora
+                    </a>
                 </div>
             </div>
         </section>
